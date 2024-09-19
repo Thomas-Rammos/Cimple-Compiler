@@ -18,3 +18,12 @@ The Cimple compiler processes the input Cimple code through several stages:
 - Supports basic control structures like if, else, while, and function/procedure calls.
 - Generates assembly code for MIPS architecture.
 - Can handle variables, constants, arithmetic operations, and logical operations.
+# How to Use
+  # Running the Compiler
+  1. Make sure you have Python installed.
+  2. Place your Cimple source code file (with a .ci extension) in the same directory as the compiler.
+  3. Run the compiler with the command
+     - python met.py yourfile.ci
+The compiler will generate two output files:
+- A .int file containing the intermediate code.
+- An .asm file with the final MIPS assembly code.
