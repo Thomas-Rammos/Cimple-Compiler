@@ -24,6 +24,7 @@ The Cimple compiler processes the input Cimple code through several stages:
   2. Place your Cimple source code file (with a .ci extension) in the same directory as the compiler.
   3. Run the compiler with the command
      - python met.py yourfile.ci
+       
 The compiler will generate two output files:
 - A .int file containing the intermediate code.
 - An .asm file with the final MIPS assembly code.
